@@ -23,5 +23,7 @@
 5. Navigate to the `backend` folder.
 6. Run the command:
    ```bash
+   npm run prisma
+   npm run prisma:migrate
    npm run dev
 7. Ensure that the `DATABASE_URL` is set in the `.env` file in the `backend` folder, as specified in the `.example.env`.
